@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "network-layer-framework",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Hugo-Coutinho/Network-Layer-Framework.git",
+      "state" : {
+        "revision" : "a1bafbb2c955db418ab25cc1fe4fd21f6037ca25",
+        "version" : "1.0.5"
+      }
+    }
+  ],
+  "version" : 2
+}
