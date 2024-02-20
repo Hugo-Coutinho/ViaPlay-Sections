@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import HGUIComponent
 
 protocol SceneRouterInput {
     func make() -> HomeViewController

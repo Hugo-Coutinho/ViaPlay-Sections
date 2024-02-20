@@ -21,16 +21,9 @@
 		A634F21D2B84DD810055EF59 /* ViaPlayEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A634F21C2B84DD810055EF59 /* ViaPlayEntity.swift */; };
 		A634F21F2B84DEE20055EF59 /* ViaPlayDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A634F21E2B84DEE20055EF59 /* ViaPlayDomain.swift */; };
 		A634F2222B84E0250055EF59 /* SectionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A634F2212B84E0250055EF59 /* SectionDetailViewController.swift */; };
-		A634F22C2B84E2040055EF59 /* SectionOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A634F2272B84E2040055EF59 /* SectionOutput.swift */; };
-		A634F22D2B84E2040055EF59 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A634F2282B84E2040055EF59 /* TableViewController.swift */; };
-		A634F22E2B84E2040055EF59 /* SectionInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A634F2292B84E2040055EF59 /* SectionInput.swift */; };
-		A634F22F2B84E2040055EF59 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = A634F22A2B84E2040055EF59 /* Section.swift */; };
-		A634F2302B84E2040055EF59 /* ReusableIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A634F22B2B84E2040055EF59 /* ReusableIdentifier.swift */; };
-		A634F2322B84E2630055EF59 /* Thread.swift in Sources */ = {isa = PBXBuildFile; fileRef = A634F2312B84E2630055EF59 /* Thread.swift */; };
 		A634F2392B84E4170055EF59 /* ViaPlayTableViewSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A634F2382B84E4170055EF59 /* ViaPlayTableViewSection.swift */; };
 		A634F23C2B84E47E0055EF59 /* ViaPlaySectionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A634F23B2B84E47E0055EF59 /* ViaPlaySectionPresenter.swift */; };
 		A634F23E2B84E70D0055EF59 /* ViaPlaySectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A634F23D2B84E70D0055EF59 /* ViaPlaySectionTableViewCell.swift */; };
-		A634F2442B84F40B0055EF59 /* LoadingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A634F2432B84F40B0055EF59 /* LoadingTableViewCell.swift */; };
 		A634F2462B84F6030055EF59 /* ViaPlaySectionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A634F2452B84F6030055EF59 /* ViaPlaySectionRouter.swift */; };
 		A634F2482B84FB230055EF59 /* SceneRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A634F2472B84FB230055EF59 /* SceneRouter.swift */; };
 		A634F24B2B84FD910055EF59 /* ViaPlayInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A634F24A2B84FD910055EF59 /* ViaPlayInteractorTests.swift */; };
@@ -40,6 +33,7 @@
 		A634F2562B8501E60055EF59 /* ViaPlay_data.json in Resources */ = {isa = PBXBuildFile; fileRef = A634F2542B8501CF0055EF59 /* ViaPlay_data.json */; };
 		A634F2592B851C790055EF59 /* DetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A634F2582B851C790055EF59 /* DetailRouter.swift */; };
 		A634F25C2B8520590055EF59 /* ViaPlayPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A634F25B2B8520590055EF59 /* ViaPlayPresenter.swift */; };
+		A634F25F2B8538500055EF59 /* HGUIComponent in Frameworks */ = {isa = PBXBuildFile; productRef = A634F25E2B8538500055EF59 /* HGUIComponent */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,16 +63,9 @@
 		A634F21C2B84DD810055EF59 /* ViaPlayEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViaPlayEntity.swift; sourceTree = "<group>"; };
 		A634F21E2B84DEE20055EF59 /* ViaPlayDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViaPlayDomain.swift; sourceTree = "<group>"; };
 		A634F2212B84E0250055EF59 /* SectionDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionDetailViewController.swift; sourceTree = "<group>"; };
-		A634F2272B84E2040055EF59 /* SectionOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionOutput.swift; sourceTree = "<group>"; };
-		A634F2282B84E2040055EF59 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		A634F2292B84E2040055EF59 /* SectionInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionInput.swift; sourceTree = "<group>"; };
-		A634F22A2B84E2040055EF59 /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
-		A634F22B2B84E2040055EF59 /* ReusableIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableIdentifier.swift; sourceTree = "<group>"; };
-		A634F2312B84E2630055EF59 /* Thread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thread.swift; sourceTree = "<group>"; };
 		A634F2382B84E4170055EF59 /* ViaPlayTableViewSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViaPlayTableViewSection.swift; sourceTree = "<group>"; };
 		A634F23B2B84E47E0055EF59 /* ViaPlaySectionPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViaPlaySectionPresenter.swift; sourceTree = "<group>"; };
 		A634F23D2B84E70D0055EF59 /* ViaPlaySectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViaPlaySectionTableViewCell.swift; sourceTree = "<group>"; };
-		A634F2432B84F40B0055EF59 /* LoadingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingTableViewCell.swift; sourceTree = "<group>"; };
 		A634F2452B84F6030055EF59 /* ViaPlaySectionRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViaPlaySectionRouter.swift; sourceTree = "<group>"; };
 		A634F2472B84FB230055EF59 /* SceneRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneRouter.swift; sourceTree = "<group>"; };
 		A634F24A2B84FD910055EF59 /* ViaPlayInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViaPlayInteractorTests.swift; sourceTree = "<group>"; };
@@ -95,6 +82,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A634F2142B84DBED0055EF59 /* HGNetworkLayer in Frameworks */,
+				A634F25F2B8538500055EF59 /* HGUIComponent in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,7 +119,6 @@
 			children = (
 				A634F25A2B8520460055EF59 /* Presenter */,
 				A634F2332B84E36B0055EF59 /* Section */,
-				A634F2232B84E1940055EF59 /* UIComponent */,
 				A634F20F2B84DA4A0055EF59 /* View */,
 				A634F20C2B84DA050055EF59 /* Router */,
 				A634F1DC2B84D8D80055EF59 /* AppDelegate.swift */,
@@ -206,28 +193,6 @@
 			path = Domain;
 			sourceTree = "<group>";
 		};
-		A634F2232B84E1940055EF59 /* UIComponent */ = {
-			isa = PBXGroup;
-			children = (
-				A634F2422B84F40B0055EF59 /* LoadingTableViewCell */,
-				A634F2262B84E2040055EF59 /* TableView */,
-			);
-			path = UIComponent;
-			sourceTree = "<group>";
-		};
-		A634F2262B84E2040055EF59 /* TableView */ = {
-			isa = PBXGroup;
-			children = (
-				A634F2272B84E2040055EF59 /* SectionOutput.swift */,
-				A634F2282B84E2040055EF59 /* TableViewController.swift */,
-				A634F2292B84E2040055EF59 /* SectionInput.swift */,
-				A634F22A2B84E2040055EF59 /* Section.swift */,
-				A634F22B2B84E2040055EF59 /* ReusableIdentifier.swift */,
-				A634F2312B84E2630055EF59 /* Thread.swift */,
-			);
-			path = TableView;
-			sourceTree = "<group>";
-		};
 		A634F2332B84E36B0055EF59 /* Section */ = {
 			isa = PBXGroup;
 			children = (
@@ -283,14 +248,6 @@
 			path = Presenter;
 			sourceTree = "<group>";
 		};
-		A634F2422B84F40B0055EF59 /* LoadingTableViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				A634F2432B84F40B0055EF59 /* LoadingTableViewCell.swift */,
-			);
-			path = LoadingTableViewCell;
-			sourceTree = "<group>";
-		};
 		A634F2492B84FD580055EF59 /* Section */ = {
 			isa = PBXGroup;
 			children = (
@@ -342,6 +299,7 @@
 			name = HGViaPlaySections;
 			packageProductDependencies = (
 				A634F2132B84DBED0055EF59 /* HGNetworkLayer */,
+				A634F25E2B8538500055EF59 /* HGUIComponent */,
 			);
 			productName = HGViaPlaySections;
 			productReference = A634F1D92B84D8D80055EF59 /* HGViaPlaySections.app */;
@@ -395,6 +353,7 @@
 			mainGroup = A634F1D02B84D8D80055EF59;
 			packageReferences = (
 				A634F2122B84DBED0055EF59 /* XCRemoteSwiftPackageReference "Network-Layer-Framework" */,
+				A634F25D2B8538500055EF59 /* XCRemoteSwiftPackageReference "HGUIComponents" */,
 			);
 			productRefGroup = A634F1DA2B84D8D80055EF59 /* Products */;
 			projectDirPath = "";
@@ -436,25 +395,18 @@
 				A634F2112B84DA6A0055EF59 /* HomeViewController.swift in Sources */,
 				A634F21D2B84DD810055EF59 /* ViaPlayEntity.swift in Sources */,
 				A634F20E2B84DA230055EF59 /* HomeRouter.swift in Sources */,
-				A634F22F2B84E2040055EF59 /* Section.swift in Sources */,
-				A634F2302B84E2040055EF59 /* ReusableIdentifier.swift in Sources */,
 				A634F21F2B84DEE20055EF59 /* ViaPlayDomain.swift in Sources */,
 				A634F2462B84F6030055EF59 /* ViaPlaySectionRouter.swift in Sources */,
 				A634F25C2B8520590055EF59 /* ViaPlayPresenter.swift in Sources */,
 				A634F2172B84DC380055EF59 /* ViaPlayService.swift in Sources */,
 				A634F1E12B84D8D80055EF59 /* ViewController.swift in Sources */,
 				A634F1DD2B84D8D80055EF59 /* AppDelegate.swift in Sources */,
-				A634F22D2B84E2040055EF59 /* TableViewController.swift in Sources */,
-				A634F2442B84F40B0055EF59 /* LoadingTableViewCell.swift in Sources */,
-				A634F22E2B84E2040055EF59 /* SectionInput.swift in Sources */,
 				A634F23C2B84E47E0055EF59 /* ViaPlaySectionPresenter.swift in Sources */,
 				A634F2592B851C790055EF59 /* DetailRouter.swift in Sources */,
 				A634F1DF2B84D8D80055EF59 /* SceneDelegate.swift in Sources */,
 				A634F23E2B84E70D0055EF59 /* ViaPlaySectionTableViewCell.swift in Sources */,
-				A634F22C2B84E2040055EF59 /* SectionOutput.swift in Sources */,
 				A634F2222B84E0250055EF59 /* SectionDetailViewController.swift in Sources */,
 				A634F21A2B84DD2C0055EF59 /* ViaPlayInteractor.swift in Sources */,
-				A634F2322B84E2630055EF59 /* Thread.swift in Sources */,
 				A634F2482B84FB230055EF59 /* SceneRouter.swift in Sources */,
 				A634F2392B84E4170055EF59 /* ViaPlayTableViewSection.swift in Sources */,
 			);
@@ -756,6 +708,14 @@
 				version = 1.0.5;
 			};
 		};
+		A634F25D2B8538500055EF59 /* XCRemoteSwiftPackageReference "HGUIComponents" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Hugo-Coutinho/HGUIComponents";
+			requirement = {
+				kind = exactVersion;
+				version = 1.0.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -763,6 +723,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = A634F2122B84DBED0055EF59 /* XCRemoteSwiftPackageReference "Network-Layer-Framework" */;
 			productName = HGNetworkLayer;
+		};
+		A634F25E2B8538500055EF59 /* HGUIComponent */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A634F25D2B8538500055EF59 /* XCRemoteSwiftPackageReference "HGUIComponents" */;
+			productName = HGUIComponent;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
